@@ -1,0 +1,48 @@
+Last login: Wed May 17 18:01:49 on ttys000
+viviane@Vivianes-MBP ~ % ls
+Applications	Desktop		Downloads	Movies		Pictures
+Books		Documents	Library		Music		Public
+viviane@Vivianes-MBP ~ % cd Documents
+viviane@Vivianes-MBP Documents % ls
+CodeLVL	Viviane
+viviane@Vivianes-MBP Documents % cd CodeLVL
+viviane@Vivianes-MBP CodeLVL % ls
+Projects
+viviane@Vivianes-MBP CodeLVL % cd Projects
+viviane@Vivianes-MBP Projects % ls
+Project1
+viviane@Vivianes-MBP Projects % cd Project1
+viviane@Vivianes-MBP Project1 % ls
+Welcome.txt
+viviane@Vivianes-MBP Project1 % cd Welcome.txt
+cd: not a directory: Welcome.txt
+viviane@Vivianes-MBP Project1 % echo "Welcome again" Welcome.txt
+Welcome again Welcome.txt
+viviane@Vivianes-MBP Project1 % echo "Welcome again">Welcome.txt 
+viviane@Vivianes-MBP Project1 % clear       
+
+
+viviane@Vivianes-MBP Project1 % cd\ Documents
+zsh: command not found: cd Documents
+viviane@Vivianes-MBP Project1 % cd \Documents
+cd: no such file or directory: Documents
+viviane@Vivianes-MBP Project1 % cd Documents
+cd: no such file or directory: Documents
+viviane@Vivianes-MBP Project1 % cd..
+zsh: command not found: cd..
+viviane@Vivianes-MBP Project1 % cd ..
+viviane@Vivianes-MBP Projects % ls   
+Project1
+viviane@Vivianes-MBP Projects % mkdir Project2
+viviane@Vivianes-MBP Projects % ls
+Project1	Project2
+viviane@Vivianes-MBP Projects % new-item indes.html
+zsh: command not found: new-item
+viviane@Vivianes-MBP Projects % cd Project2
+viviane@Vivianes-MBP Project2 % new-item index.html
+zsh: command not found: new-item
+viviane@Vivianes-MBP Project2 % touch index.html
+viviane@Vivianes-MBP Project2 % new-item index.html
+zsh: command not found: new-item
+viviane@Vivianes-MBP Project2 % touch index2.html
+viviane@Vivianes-MBP Project2 % 
